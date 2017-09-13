@@ -1,0 +1,394 @@
+/*
+    Document   : style
+    Created on : 11th Sep, 2017, 04:24:12 PM
+    Author     :
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+/******************************************************
+  @group the basic Headre CSS : End
+******************************************************/
+.header .col-xs-12{
+    padding:10px 0;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+}
+.hd-title{
+  font-size: 35px;
+  font-weight: 300;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 20px 0;
+}
+.top-logo{
+    line-height: 58px;
+    height: 58px;
+    vertical-align: bottom;
+    float: left;
+}
+.top-logo img{
+    float: left;
+    height: 55px;
+    width: 212px;
+}
+.js-p-list{
+  border-top: 6px solid rgb(221,218,220);
+  border-bottom: 6px solid rgb(221,218,220);
+}
+.list-wrap{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+.sites-list{
+    width: 50%;
+}
+.p-list-item{
+    overflow: hidden;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(221,218,220);
+}
+.pTemplate .row.ttl-blk {
+  padding: 10px 0;
+  clear: both;
+  font-weight: 300;
+  border-top: 1px solid rgb(221,218,220);
+}
+.ttl-blk .tC,.ttl-blk .col-xs-10{
+  font-weight: bold;
+}
+.tot-p-count{
+  font-size: 18px;
+}
+.indi-package-price{
+  width: 40%;
+  margin-top: 12px;
+}
+
+.p-list-item:last-child{
+  border-bottom: none;
+}
+.a-f-av{
+
+}
+.p-lan{
+    float: right;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 3px;
+    clear: both;
+}
+.p-desc{
+
+}
+.a-p-f-c{
+    float: right;
+}
+.a-f-name{
+    font-size: 20px;
+    font-weight: 400;
+}
+.a-f{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+.list-tag .a-f{
+    text-transform: capitalize;
+}
+
+.list-links {
+    margin-left: 5px;
+    float: left;
+}
+.list-likes{
+    margin-right: 10px;
+}
+.sub-heading{
+    margin-top: -4px;
+    float: left;
+    font-size: 15px;
+    margin-left: 6px;
+    font-weight: 400;
+}
+.sub-heading-on{
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 0px;
+    margin-left: -2px;
+}
+.sites-extra-details{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.list-wrap-l-b{
+    width: 25%;
+    margin-right: 10px;
+
+}
+.list-wrap-r-b{
+    width: 72%;
+}
+.list-wrap-l-b,.list-wrap-r-b{
+    padding: 0;
+}
+#website-i-data{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#websites-i-tags{
+    padding: 10px;
+}
+#websites-i-tags li{
+    padding: 4px 10px;
+    margin: 0 0 2px;
+    font-size: 12px;
+}
+#websites-i-tags ul{
+    max-height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.loadMore{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.list-likes .fa-thumbs-o-up{
+    font-size: 15px;
+}
+.pTemplate .row {
+    margin: 0;
+}
+.a-f-av{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+
+}
+.p-details-i-wrap a{
+  text-transform: uppercase;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+.p-style{
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.p-style, .caps{
+  text-transform: capitalize;
+}
+.p-details-wrap .row,.p-details-i-wrap{
+  height: 100%;
+}
+.p-events{
+  bottom: 0;
+  font-size: 12px;
+}
+.p-events span{
+  padding-right: 10px;
+  border-right: 1px solid rgb(221,218,220);
+  padding-left: 10px;
+  cursor: pointer;
+}
+.p-size{
+  margin-top: 5px;
+}
+.p-events span:last-child{
+  border-right: none;
+}
+.p-events span:first-child{
+  padding-left: 0px;
+}
+.a-f-av > [class*='col-']{
+	 display: flex;
+	 flex-direction: column;
+}
+.container-wrap{
+    padding: 15px 20px;
+}
+.e-x-d,.e-d-wrap{
+    position: relative;
+}
+.view-c{
+    float: right;
+    background: rgb(44,195,166);
+    padding: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.l-details{
+    background: rgb(206,220,198);
+    height: 50px;
+    width: 25%;
+    right: 0;
+    position: absolute;
+    top: 27px;
+    text-align: left;
+    padding: 10px;
+}
+.l-wrap{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+.l-hours{
+    font-size: 12px;
+    font-weight: 400;
+}
+.increment{
+    cursor: pointer;
+    float: left;
+    margin-top: 1px;
+}
+.increment:hover{
+    color: #f88d25;
+}
+.number-of-votes{
+    font-size: 13px;
+    font-weight: 400;
+}
+.l-description{
+    font-size: 13px;
+    padding-top: 15px;
+}
+.l-description h3{
+    padding-top: 16px;
+    color: #333;
+    padding: 0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.l-description .l-desc{
+    font-size: 15px;
+}
+.prd-qty {
+    width: 80px;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.hd-note{
+  vertical-align: super;
+  font-size: smaller;
+}
+.p-o-price{
+  text-decoration: line-through;
+}
+.order-smry{
+  padding-top: 60px;
+}
+.static-text{
+  padding-bottom: 15px;
+}
+.right-blk{
+  float: right;
+}
+.promo-c-txt{
+  padding: 9.2px 10px;
+}
+.right-blk > .row{
+  padding: 15px 0;
+}
+.right-blk > .row:first-child{
+  border-bottom: 6px solid rgb(221,218,220);
+}
+.right-blk > .row:last-child{
+  border-top: 6px solid rgb(221,218,220);
+}
+.e-tot{
+  border-top: 1px solid rgb(221,218,220);
+}
+.footnot{
+    padding: 10px 0;
+}
+.c-s-p{
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.checkout-note{
+  padding-top: 15px;
+  clear: both;
+  overflow: hidden;
+  float: right;
+}
+.s-lock{
+  background-image: url(../images/lock.jpg);
+  background-repeat: no-repeat;
+  height: 11px;
+  width: 12px;
+  background-size: 11px 12px;
+  float: left;
+}
+.qty{
+  float: right;
+  width: 47%;
+}
+.size{
+  float: left;
+  width: 47%;
+  margin-right: 10px;
+}
+.indi-prd{
+  overflow: hidden;
+  border-top: 6px solid rgb(221,218,220);
+}
+.table>thead>tr>th,.table>tbody>tr>td{
+  padding-left: 0;
+}
+.right-blk h2{
+  color: #000;
+  font-size: 20px;
+}
+.t-amount{
+
+}
+.estimated-block .e-total{
+  /*padding: 0 10px;
+  border-right: 2px solid #ccc;*/
+}
+.b-break-ups{
+  color: gray;
+}
+.b-selected-price{
+  color: #dd0017;
+}
+.total-oder-amount{
+  font-weight: bold;
+  font-size: 20px;
+}
+.final-box-breakup{
+  padding: 10px 0;
+  border-bottom: 2px solid #ccc;
+}
+.final-box-breakup span{
+  display: inline-block;
+
+}
+/******************************************************
+  @group the basic media queries  : Starts
+******************************************************/
+
+
+/******************************************************
+  @group the basic media queries  : Ends
+******************************************************/

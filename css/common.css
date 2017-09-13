@@ -1,0 +1,295 @@
+/*
+    Document   : common
+    Created on : 11th Sep, 2017, 04:24:12 PM
+    Author     : saorabhkumar
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/******************************************************
+  @group Usualy Common CSS : Start
+******************************************************/
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+.floatLeft{
+  float: left;
+}
+.floatRight{
+  float: right;
+}
+.clear{
+  clear: both
+}
+.show,.dB{
+  display: block
+}
+.hide,.displayNone{
+  display: none
+}
+.tC{
+  text-align: center;
+}
+.tR{
+  text-align: right;
+}
+.tL{
+  text-align: left;
+}
+.overflowHidden {
+  overflow:hidden
+}
+.textHide{
+  display: block;
+  text-indent: -99999px
+}
+.boldText{
+  font-weight: bold;
+  font-style:normal;
+}
+.nText{
+  font-weight: normal;
+}
+.vAm{
+  vertical-align: middle;
+}
+.vAt{
+  vertical-align: top;
+}
+.vAb{
+  vertical-align: bottom;
+}
+.poRel{
+  position: relative;
+}
+.poAbs{
+  position: absolute;
+}
+.margin0{
+  margin: 0;
+}
+.padding0{
+  padding:0;
+}
+.round3{
+  -webkit-border-radius: 3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+}
+.heading{
+  font-size: 24px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.u-l{
+  text-decoration: underline;
+}
+.c-p{
+  cursor: pointer;
+}
+.text-ellipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.color999{
+    color: #999;
+}
+.color666{
+    color: #666;
+}
+.font12{
+    font-size: 12px;
+}
+.font11{
+    font-size: 11px;
+}
+.font14{
+    font-size: 14px;
+}
+.font16{
+    font-size: 16px;
+}
+.font22{
+    font-size: 22px;
+}
+.font40{
+    font-size: 40px;
+}
+.upperCase{
+    text-transform: uppercase;
+}
+.fontBold{
+    font-weight: bold;
+}
+.searchIcon{
+    height: 20px;
+    width: 20px;
+    background-position: -86px -85px;
+}
+.dB{
+    display: block;
+}
+.dIB{
+ display: inline-block;;
+}
+.seprator{
+    color: #c3c3c3;
+}
+.redText{
+    color: #ff0f00;
+}
+
+.paddingT4{
+    padding-top: 4px;
+}
+.paddingB4{
+    padding-bottom: 4px;
+}
+.fontW4{
+    font-weight: 400;
+}
+.marginTop30{
+    margin-top: 30px;
+}
+.f14{
+    font-size: 14px;
+}
+
+.button-bg{
+  color:rgb(16,105,189);
+}
+.button-text{
+  color:rgb(255,255,255);
+}
+.p-text{
+  color:rgb(0,0,0);
+}
+.s-text{
+  color:rgb(107,107,107);
+}
+.b-color{
+  color:rgb(221,218,220);
+}
+.l-gray{
+  color:rgb(197,197,197);
+}
+.p-l-b{
+    color: #333;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.t-button {
+    letter-spacing: 2px;
+    text-align: left;
+    width: 100%;
+    padding-left: 35%;
+    margin: 15px 0px;
+    transition: 0.2s ease;
+    animation: reveal 0.9s ease;
+    background-color: transparent;
+}
+.btn-black-border {
+    background-color: #fff;
+    color: #25283D;
+    border: 1px solid #25283D;
+    transition: 300ms;
+    padding: 10px 20px;
+}
+.btn-black-border:hover{
+  background-color: #000;
+  color: #fff;
+}
+.btn-dark{
+  background-color: rgb(16,105,189);
+  color: #fff;
+  border: 1px solid rgb(16,105,189);
+  transition: 300ms;
+  padding: 10px 20px;
+}
+.s-c-msg {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.hover-c{
+    color:#f88d25;
+}
+.align-center{
+    text-align: center;
+}
+select{
+  font-weight: 300;
+  min-width: 100%;
+  height: 46px;
+  line-height: 17px;
+  color: #333;
+  border: 1px solid #333;
+  letter-spacing: 1px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  background: 0;
+  margin: 0 0 1em;
+  padding: 10px 11px;
+}
+.select-holder:after {
+    top: 12px;
+    position: absolute;
+    left: calc(100% - 25px);
+    width: 0;
+    height: 0;
+    content: "\f107";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.2em;
+    pointer-events: none;
+    color: #171717;
+}
+.close-btn-wrapper{
+  position: relative;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  top: 8px;
+  right: 8px;
+  background: #e5e5e5;
+}
+.close-btn {
+  height: 35px;
+  width: 2px;
+  background: #333;
+  position: absolute;
+  right: 18px;
+  transform: rotate(-45deg);
+  top: 4px;
+}
+
+.close-btn::after {
+    content: " ";
+    height: 2px;
+    width: 35px;
+    background: #333;
+    position: absolute;
+    top: 16px;
+    right: -16px
+}
+
+/******************************************************
+  @group Usualy Common CSS : Ends
+******************************************************/

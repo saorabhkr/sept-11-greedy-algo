@@ -1,0 +1,74 @@
+/*
+    Document   : typo
+    Created on : 11th Sep, 2017, 04:24:12 PM
+    Author     : saorabhkumar
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/*
+ * minimal base styles
+ */
+
+
+/* Headers (h1,h2,etc) have no default font-size or margin,
+you'll want to define those yourself. */
+h1,h2,h3,h4,h5,h6 { font-weight: bold;text-align: left;padding:0 0 8px;color:#CCCCCC; line-height:1em }
+
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+a{color: #999;text-decoration: none}
+
+a:hover, a:active { outline: none; }
+
+a, a:active, a:visited { outline: none }
+a:hover { color:#f88d25; text-decoration: underline;}
+
+ol { list-style-type: decimal; }
+
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+
+td, td img { vertical-align: top; }
+
+sub { vertical-align: sub; font-size: smaller; }
+sup { vertical-align: super; font-size: smaller; }
+
+
+pre {
+  padding: 15px;
+
+  /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+
+textarea { overflow: auto; } /* thnx ivannikolic! www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+
+
+/* align checkboxes, radios, text inputs with their label
+   by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: top; }
+
+/* hand cursor on clickable input elements */
+input[type=button], input[type=submit], button { cursor: pointer; }
+
+/* webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea { margin: 0; }
+
+/* colors for form validity */
+input:valid, textarea:valid   {  }
+.no-boxshadow input:invalid,
+.no-boxshadow textarea:invalid { background-color: #f0dddd; }
+/*  j.mp/webkit-tap-highlight-color */
+a:link { -webkit-tap-highlight-color: #999; }
+
+/* make buttons play nice in IE:
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {  width: auto; overflow: visible; }

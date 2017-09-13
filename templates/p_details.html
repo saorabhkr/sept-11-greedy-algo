@@ -1,0 +1,137 @@
+<script id="websites-data" type="text/template">
+  <div class="row">
+      <div id="website-i-data" class='col-xs-12'>
+        <div class="row cart-heading">
+          <h1 class="col-xs-12 hd-title p-text">YOUR SHOPPING BAG</h1>
+          <div class="visible-only-on-xs hidden-sm hidden-md hidden-lg hidden-xl xs-p-count"><span class="tot-p-count p-text nText">3</span> ITEMS</div>
+          <div class="ttl-blk row hidden-xs">
+            <div class="col-xs-10"><span class="tot-p-count p-text nText">3</span> ITEMS</div>
+          </div>
+        </div>
+        <ul class="p-list js-p-list row">
+          {{#data}}
+            <li class="p-list-item col-xs-12" id="product-group-{{p_code}}">
+              <div class="a-f-av row">
+                <div class="col-xs-6 col-sm-3 po">
+                  <a class="prod-img" href="javascript:void(0);" alt="{{p_name}}" data-trigger-modal="spmodal" data-product-id="{{p_id}}">
+                    <img alt="{{p_name}}" class="p-image img-responsive" src="{{p_image}}"/>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-9 po p-details-wrap poRel">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-10  p-details-i-wrap">
+                      <a href="javascript:void(0);" alt="{{p_name}}">{{p_name}}</a>
+                      <div class="p-style">Style#: {{p_code}}</div>
+                      <div class="p-details-i-wrap no-padding row in-pd">
+                          <div class="p-qty caps col-xs-2 no-padding">
+                            <br/>
+                            QTY: <form><input type="text" value="{{p_quantity}}" data-product-id="{{p_id}}" class="prd-qty p-qty-sm qty-prd-{{p_id}}"  /></form>
+                          </div>
+                          <div class="p-events col-xs-10 hidden-sm hidden-xs">
+                            <div class="p-price tL col-xs-12 no-padding">
+                              <div class="p-r-price tL">
+                                <div class="indi-package-price">
+                                  <table class="table">
+                                    <thead class="thead-inverse">
+                                      <tr>
+                                        <th>Package Size</th>
+                                        <th>Package Price</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                    {{#p_available_package.sizeswithPrice}}
+                                      <tr>
+                                          <td>
+                                            {{p_size}}
+                                          </td>
+                                        
+                                          <td>
+                                            $ {{p_price}}
+                                          </td>
+                                      </tr>
+                                    {{/p_available_package.sizeswithPrice}}
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="p-events visible-only-on-xs visible-only-on-sm hidden-md hidden-lg hidden-lx col-xs-12">
+                  <div class="p-price tL col-xs-12 no-padding">
+                    <div class="p-r-price tL">
+                      <div class="indi-package-price">
+                        <table class="table">
+                          <thead class="thead-inverse">
+                            <tr>
+                              <th>Package Size</th>
+                              <th>Package Price</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                          {{#p_available_package.sizeswithPrice}}
+                            <tr>
+                                <td>
+                                  {{p_size}}
+                                </td>
+                              
+                                <td>
+                                  $ {{p_price}}
+                                </td>
+                            </tr>
+                          {{/p_available_package.sizeswithPrice}}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </li>
+        {{/data}}
+      </ul>
+    </div>
+  </div>
+  <div class="row order-smry">
+    <div class="col-xs-4 hidden-xs">
+      <div class="static-text n-h">Need help<br/>or have questions?</div>
+      <div class="static-text c-n">Call Customer Service</div>
+    </div>
+    <div class="col-xs-12 col-sm-7 right-blk padding0">
+      
+      <div class="row poRel">
+        <div class="col-xs-12 padding0 font16 boldText p-text">
+          <h2>ESTIMATED TOTAL</h2>
+          <hr/>
+          <div class="row">
+            <div class="col-xs-12 no-padding estimated-block">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 padding0 font16 boldText p-text t-amount">
+          <h2>TOTAL ORDER AMOUT</h2>
+          <div class="row">
+            <div class="col-xs-12 no-padding total-oder-amount"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4"></div>
+        <div class="col-xs-12 col-sm-8 padding0 floatRight">
+          <input type="button" class="chk-bt btn-dark floatRight" value="CHECKOUT" id="checkout-price"/>
+          <div class="checkout-note">
+            <div class="s-lock"></div>
+            <div class="s-lock-text font11 floatRight p-text">Secure checkout. Shopping is always safe and secure.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>

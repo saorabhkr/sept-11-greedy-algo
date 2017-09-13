@@ -1,0 +1,96 @@
+{
+   "productsInCart":[
+      {
+         "p_id":"1",
+         "p_code" : "VS5",
+         "p_name":"Vegemite Scroll",
+         "p_avail_package": [3,5],
+         "p_image" : "./images/vs.jpg",
+         "p_selected_package":{
+            "p_name":"3"
+         },
+         "box_details" : {
+            "p_size" : [3,5],
+            "p_price" : [6.99, 8.99]
+         },
+         "p_available_package":{
+            "sizeswithPrice":[
+               {
+                  "p_size":"3",
+                  "p_price" : "6.99"
+               },
+               {
+                  "p_size":"5",
+                  "p_price" : "8.99"
+               }
+            ]
+         },
+         "p_quantity":10,
+         "c_currency":"$"
+      },
+      {
+         "p_id":"2",
+         "p_code" : "MB11",
+         "p_name":"Blueberry Muffin",
+         "p_avail_package": [2,5,8],
+         "p_image" : "./images/bm.jpg",
+         "p_selected_package":{
+            "name":"2"
+         },
+         "box_details" : {
+            "p_size" : [2,5,8],
+            "p_price" : [9.95,16.95, 24.95]
+         },
+         "p_available_package":{
+            "sizeswithPrice":[
+               {
+                  "p_size":"2",
+                  "p_price" : "9.95"
+               },
+               {
+                  "p_size":"5",
+                  "p_price" : "16.95"
+               },
+               {
+                  "p_size":"8",
+                  "p_price" : "24.95"
+               }
+            ]
+         },
+         "p_quantity":14,
+         "c_currency":"$"
+      },
+      {
+         "p_id":"3",
+         "p_code" : "CF",
+         "p_name":"Croissant",
+         "p_avail_package": [3,5,9],
+         "p_image" : "./images/croissant.jpg",
+         "p_selected_package":{
+            "name":"3"
+         },
+         "box_details" : {
+            "p_size" : [3,5,9],
+            "p_price" : [5.95,9.95, 16.95]
+         },
+         "p_available_package":{
+            "sizeswithPrice":[
+               {
+                  "p_size":"3",
+                  "p_price" : "5.95"
+               },
+               {
+                  "p_size":"5",
+                  "p_price" : "9.95"
+               },
+               {
+                  "p_size":"9",
+                  "p_price" : "16.99"
+               }
+            ]
+         },
+         "p_quantity":13,
+         "c_currency":"$"
+      }
+   ]
+}
